@@ -1,43 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     android:orientation="vertical"
-    android:padding="20dp">
+    tools:context=".MainActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:textSize="40dp"
-        android:textAlignment="center"
         android:background="#000000"
+        android:padding="10dp"
         android:textColor="#ffffff"
-        android:padding="15dp" />
+        android:text="Sign Up Form"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Please Enter Your Name"
-        android:padding="10dp"/>
+        android:padding="25dp"
+        android:hint="Enter University Roll.No"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Please Enter Your Mobile Number"
-        android:padding="10dp"/>
+        android:padding="25dp"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Please Enter Your Email Id"
-        android:padding="10dp"/>
+        android:padding="25dp"
+        android:hint="Enter Email Id"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:hint="Enter Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:defaultFocusHighlightEnabled="true"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        android:defaultFocusHighlightEnabled="true"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:textSize="20dp"
-        android:clickable="true"
-        android:cursorVisible="true"/>
+        android:text="SIGN UP"
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:textSize="25dp"/>
+
 </LinearLayout>
-</android.support.constraint.ConstraintLayout>

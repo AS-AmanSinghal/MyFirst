@@ -1,37 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="20dp"
+    tools:context=".MainActivity">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:padding="20dp"
-        android:text="Login Form"
-        android:textSize="30dp" />
+        android:layout_marginTop="150dp"
+        android:background="#000000"
+        android:padding="10dp"
+        android:text="Log In Form"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="mobile number"
-        android:padding="7dp"
-        android:textSize="18dp" />
+        android:hint="Enter Official Email Id"
+        android:padding="25dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
-        android:padding="7dp"
-        android:textSize="18dp" />
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="Enter Password"
+        android:padding="25dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        />
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:text="LOG IN"
+        android:textSize="25dp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgotten password?"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textAlignment="textStart"
+        android:textColor="#0000ff"
+        android:textSize="10dp" />
 </LinearLayout>
