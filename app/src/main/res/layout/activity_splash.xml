@@ -16,6 +16,7 @@
     <LinearLayout
         android:gravity="center"
         android:background="#99000000"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -27,6 +28,13 @@
             android:textColor="#ffffff"
             android:text="Company Pvt Ltd."
             android:textSize="30dp" />
+        <Button
+            android:id="@+id/btn_next"
+            android:background="@drawable/button_background"
+            android:text="Continue"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

@@ -31,16 +31,22 @@
         android:orientation="vertical"
         android:elevation="4dp">
         <EditText
-
+            android:textColorHint="#ffffff"
             android:hint="Username"
+            android:drawableStart="@drawable/person"
+            android:drawablePadding="7dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
+            android:textColorHint="#ffffff"
+            android:drawablePadding="7dp"
+            android:drawableStart="@drawable/person"
             android:hint="Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
     <TextView
+        android:textColor="#ffffff"
         android:layout_marginTop="5dp"
         android:text="Forgotten Password?"
         android:gravity="end"
@@ -48,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:background="@drawable/button_background"
         android:text="Login"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
